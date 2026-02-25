@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Service History - Premium Theme</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "cream-50": "#FDFBF7",
+                        "cream-100": "#F5F2EA",
+                        "cream-200": "#EBE5D5",
+                        "slate-700": "#334155",
+                        "slate-800": "#2C3E50",
+                        "slate-900": "#1E2B3A",
+                        "champagne-100": "#F9F1D8",
+                        "champagne-400": "#D4AF37",
+                        "champagne-500": "#C5A028",
+                        "champagne-600": "#B08D1E",
+                    },
+                    fontFamily: {
+                        "display": ["Playfair Display", "serif"],
+                        "body": ["DM Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.375rem",
+                        "lg": "0.75rem", 
+                        "xl": "1rem", 
+                        "2xl": "1.5rem",
+                        "3xl": "2rem"
+                    },
+                    boxShadow: {
+                        "soft": "0 4px 20px -2px rgba(30, 43, 58, 0.05)",
+                        "inner-light": "inset 0 2px 4px 0 rgba(255, 255, 255, 0.3)"
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #FDFBF7; 
+            -webkit-tap-highlight-color: transparent;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-cream-50 text-slate-800 antialiased min-h-screen pb-24">
+<header class="sticky top-0 z-40 bg-slate-900 text-cream-50 pt-12 pb-6 px-6 shadow-lg rounded-b-3xl">
+<div class="flex items-center justify-between mb-6">
+<button class="p-2 -ml-2 rounded-full hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-champagne-400">arrow_back_ios_new</span>
+</button>
+<h1 class="font-display text-xl tracking-wide text-cream-50">Service History</h1>
+<button class="p-2 -mr-2 rounded-full hover:bg-slate-800 transition-colors relative">
+<span class="material-symbols-outlined text-champagne-400">tune</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-champagne-500 rounded-full border border-slate-900"></span>
+</button>
+</div>
+<div class="relative">
+<input class="w-full bg-slate-800 border-none text-cream-50 placeholder-slate-500 rounded-xl py-3.5 pl-11 pr-4 focus:ring-1 focus:ring-champagne-400 shadow-inner-light text-sm" placeholder="Search by service or date..." type="text"/>
+<span class="material-symbols-outlined absolute left-3.5 top-3.5 text-slate-500 text-[20px]">search</span>
+</div>
+<div class="flex gap-3 mt-6 overflow-x-auto hide-scrollbar pb-1">
+<button class="flex-shrink-0 bg-champagne-400 text-slate-900 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider shadow-md">
+                All
+            </button>
+<button class="flex-shrink-0 bg-slate-800 border border-slate-700 text-slate-300 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider whitespace-nowrap">
+                Cleaning
+            </button>
+<button class="flex-shrink-0 bg-slate-800 border border-slate-700 text-slate-300 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider whitespace-nowrap">
+                Maintenance
+            </button>
+<button class="flex-shrink-0 bg-slate-800 border border-slate-700 text-slate-300 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider whitespace-nowrap">
+                Gardening
+            </button>
+</div>
+</header>
+<main class="px-5 py-6 space-y-8">
+<section>
+<h2 class="font-display text-2xl text-slate-900 mb-4 px-1">October 2023</h2>
+<div class="space-y-4">
+<div class="group bg-white rounded-2xl p-5 shadow-soft border border-cream-200 active:scale-[0.99] transition-all duration-200">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-3">
+<div class="bg-cream-100 p-2.5 rounded-xl text-slate-700">
+<span class="material-symbols-outlined text-[24px]">cleaning_services</span>
+</div>
+<div>
+<h3 class="font-bold text-slate-900 text-lg leading-tight">Deep Home Clean</h3>
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide mt-1">Premium Package</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 bg-champagne-100/50 border border-champagne-400/20 text-champagne-600 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px] filled">check_circle</span>
+                            Completed
+                        </span>
+</div>
+<div class="pl-[3.25rem] space-y-3">
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">calendar_today</span>
+<span class="font-medium">Oct 24, 2:00 PM</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">payments</span>
+<span class="font-medium">$185.00</span>
+</div>
+<div class="pt-3 flex gap-3">
+<button class="flex-1 bg-slate-900 text-champagne-400 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest shadow-md hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">refresh</span>
+                                Reorder
+                            </button>
+<button class="flex-1 bg-cream-100 text-slate-600 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-cream-200 transition-colors">
+                                Receipt
+                            </button>
+</div>
+</div>
+</div>
+<div class="group bg-white rounded-2xl p-5 shadow-soft border border-cream-200 active:scale-[0.99] transition-all duration-200">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-3">
+<div class="bg-cream-100 p-2.5 rounded-xl text-slate-700">
+<span class="material-symbols-outlined text-[24px]">hvac</span>
+</div>
+<div>
+<h3 class="font-bold text-slate-900 text-lg leading-tight">HVAC Maintenance</h3>
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide mt-1">Seasonal Checkup</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 bg-champagne-100/50 border border-champagne-400/20 text-champagne-600 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px] filled">check_circle</span>
+                            Completed
+                        </span>
+</div>
+<div class="pl-[3.25rem] space-y-3">
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">calendar_today</span>
+<span class="font-medium">Oct 12, 10:00 AM</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">payments</span>
+<span class="font-medium">$120.00</span>
+</div>
+<div class="pt-3 flex gap-3">
+<button class="flex-1 bg-slate-900 text-champagne-400 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest shadow-md hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">refresh</span>
+                                Reorder
+                            </button>
+<button class="flex-1 bg-cream-100 text-slate-600 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-cream-200 transition-colors">
+                                Receipt
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<h2 class="font-display text-2xl text-slate-900 mb-4 px-1">September 2023</h2>
+<div class="space-y-4">
+<div class="group bg-white rounded-2xl p-5 shadow-soft border border-cream-200 active:scale-[0.99] transition-all duration-200">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-3">
+<div class="bg-cream-100 p-2.5 rounded-xl text-slate-700">
+<span class="material-symbols-outlined text-[24px]">yard</span>
+</div>
+<div>
+<h3 class="font-bold text-slate-900 text-lg leading-tight">Garden Landscaping</h3>
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide mt-1">Full Service</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 bg-stone-100 border border-stone-200 text-slate-500 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px]">cancel</span>
+                            Cancelled
+                        </span>
+</div>
+<div class="pl-[3.25rem] space-y-3">
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">calendar_today</span>
+<span class="font-medium">Sep 28, 9:00 AM</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">payments</span>
+<span class="font-medium line-through decoration-slate-400">$350.00</span>
+</div>
+<div class="pt-3">
+<button class="w-full bg-cream-100 text-slate-600 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-cream-200 transition-colors">
+                                View Details
+                            </button>
+</div>
+</div>
+</div>
+<div class="group bg-white rounded-2xl p-5 shadow-soft border border-cream-200 active:scale-[0.99] transition-all duration-200">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-3">
+<div class="bg-cream-100 p-2.5 rounded-xl text-slate-700">
+<span class="material-symbols-outlined text-[24px]">plumbing</span>
+</div>
+<div>
+<h3 class="font-bold text-slate-900 text-lg leading-tight">Pipe Repair</h3>
+<p class="text-xs font-medium text-slate-500 uppercase tracking-wide mt-1">Emergency</p>
+</div>
+</div>
+<span class="inline-flex items-center gap-1 bg-champagne-100/50 border border-champagne-400/20 text-champagne-600 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[12px] filled">check_circle</span>
+                            Completed
+                        </span>
+</div>
+<div class="pl-[3.25rem] space-y-3">
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">calendar_today</span>
+<span class="font-medium">Sep 15, 8:30 PM</span>
+</div>
+<div class="flex items-center gap-2 text-slate-600 text-sm">
+<span class="material-symbols-outlined text-[18px] text-slate-400">payments</span>
+<span class="font-medium">$240.00</span>
+</div>
+<div class="pt-3 flex gap-3">
+<button class="flex-1 bg-slate-900 text-champagne-400 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest shadow-md hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">refresh</span>
+                                Reorder
+                            </button>
+<button class="flex-1 bg-cream-100 text-slate-600 py-2.5 rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-cream-200 transition-colors">
+                                Receipt
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-xl border-t border-cream-200 px-6 py-4 pb-8 shadow-[0_-4px_20px_-4px_rgba(0,0,0,0.05)]">
+<div class="grid grid-cols-4 gap-1">
+<a class="group flex flex-col items-center gap-1.5" href="#">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-slate-800 transition-colors">home_app_logo</span>
+<span class="text-[10px] font-bold uppercase tracking-wide text-slate-400 group-hover:text-slate-800 transition-colors">Home</span>
+</a>
+<a class="group flex flex-col items-center gap-1.5" href="#">
+<span class="material-symbols-outlined text-champagne-500 fill-current">history</span>
+<span class="text-[10px] font-bold uppercase tracking-wide text-champagne-600">History</span>
+</a>
+<a class="group flex flex-col items-center gap-1.5" href="#">
+<div class="relative">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-slate-800 transition-colors">chat_bubble</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-champagne-500 rounded-full border border-white"></span>
+</div>
+<span class="text-[10px] font-bold uppercase tracking-wide text-slate-400 group-hover:text-slate-800 transition-colors">Chat</span>
+</a>
+<a class="group flex flex-col items-center gap-1.5" href="#">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-slate-800 transition-colors">person</span>
+<span class="text-[10px] font-bold uppercase tracking-wide text-slate-400 group-hover:text-slate-800 transition-colors">Profile</span>
+</a>
+</div>
+</nav>
+
+</body></html>
