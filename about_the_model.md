@@ -156,10 +156,3 @@ We utilized the following metrics to validate model performance:
 2. **Confusion Matrix:** Visualizes misclassifications (e.g., mistaking a Cyst for a Tumor).
 3. **mAP50 (Mean Average Precision):** Used for YOLO. Measures how accurately the predicted box overlaps with the ground truth box (Intersection over Union  0.50).
 
----
-
-### **Phase 3: The Web Interface (Streamlit)**
-
-Now that you have the trained models (`.h5` and `.pt`) and the documentation, the final step is the **Web App code** to put it all together.
-
-**Would you like the `app.py` code now so you can finish the project?**

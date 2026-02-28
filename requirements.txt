@@ -5,3 +5,9 @@ tensorflow
 pillow
 numpy
 ultralytics
+streamlit
+tensorflow
+ultralytics
+pillow
+numpy
+opencv
