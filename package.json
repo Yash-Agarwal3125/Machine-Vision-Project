@@ -1,0 +1,12 @@
+{
+    "name": "kidney-stone-diagnosis",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "cd frontend/web-app && npm run dev",
+        "dev:backend": "backend\\venv\\Scripts\\python.exe backend/main.py",
+        "dev:frontend": "cd frontend/web-app && npm run dev",
+        "build": "cd frontend/web-app && npm run build",
+        "install:frontend": "cd frontend/web-app && npm install"
+    }
+}

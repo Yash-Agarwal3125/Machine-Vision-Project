@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us - Premium Theme</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f2b90d",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#221e10",
+                        "slate-dark": "#2d3748",
+                        "slate-light": "#4a5568",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar hiding for clean mobile look */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-dark dark:text-gray-100 antialiased overflow-x-hidden pb-24">
+<!-- Navigation Header -->
+<nav class="sticky top-0 z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-primary/10 px-6 py-4 flex justify-between items-center">
+<button class="p-2 -ml-2 rounded-full hover:bg-primary/10 transition-colors text-slate-dark dark:text-white">
+<span class="material-icons text-xl">arrow_back_ios_new</span>
+</button>
+<h1 class="text-lg font-bold tracking-tight text-slate-dark dark:text-white uppercase">About Us</h1>
+<button class="p-2 -mr-2 rounded-full hover:bg-primary/10 transition-colors text-slate-dark dark:text-white">
+<span class="material-icons text-xl">more_horiz</span>
+</button>
+</nav>
+<!-- Hero Section -->
+<section class="px-6 pt-6 pb-2">
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-lg border border-primary/20 group">
+<img alt="Professional team meeting in modern office" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Professional team meeting in modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLnQ-fr6kFvvu7Dj7I_8Eee6MNyLUy8bKGGPvZqMW6M76B8j4wZPy8SojAygBBPvxtnd_D6RJop-lC9L88lX_yJbcor4f8PCfJFuo6AZ2BqgbraHUGZJXHLcXeZzfp_pps-9vHY4NiHc8Al4tUyySt-eefnL8SMSJwu4wfnd2PKvLlFUPKj7qAz6OI9Qw8aONRfgnA3YNasWLNEeiVN86EDZyPCTn1OkBhG76PNj2TlA9MRyyVIa4_0T8DfnBkkpLidT-miO29nA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<span class="inline-block px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-slate-900 bg-primary rounded-full">EST. 2018</span>
+<h2 class="text-2xl font-bold text-white leading-tight">Elevating Standards, <br/> Redefining Clean.</h2>
+</div>
+</div>
+</section>
+<!-- Mission Statement -->
+<section class="px-6 py-8">
+<div class="bg-white dark:bg-white/5 border border-primary/10 p-6 rounded-xl shadow-sm relative overflow-hidden">
+<!-- Decorative circle -->
+<div class="absolute -right-6 -top-6 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
+<h3 class="text-sm font-bold text-primary uppercase tracking-widest mb-3">Our Mission</h3>
+<p class="text-lg leading-relaxed text-slate-light dark:text-gray-300 font-medium">
+                "We fuse precision cleaning with intelligent property management. Our goal is not just to maintain spaces, but to enhance the lifestyle of everyone who steps inside them."
+            </p>
+</div>
+</section>
+<!-- Model Parametrics Section -->
+<section class="px-6 py-4">
+<div class="flex justify-between items-end mb-6">
+<h3 class="text-2xl font-bold text-slate-dark dark:text-white">Model Parametrics</h3>
+<span class="text-xs text-slate-500 dark:text-gray-400 font-mono mb-1">LIVE DATA • 2024</span>
+</div>
+<!-- Grid of Metrics -->
+<div class="grid grid-cols-2 gap-4 mb-6">
+<!-- Metric Card 1: Ring Chart -->
+<div class="bg-slate-50 dark:bg-white/5 p-4 rounded-xl border border-primary/10 flex flex-col items-center justify-center text-center">
+<div class="relative w-20 h-20 mb-3">
+<svg class="w-full h-full transform -rotate-90">
+<circle class="text-gray-200 dark:text-gray-700" cx="40" cy="40" fill="none" r="36" stroke="currentColor" stroke-width="6"></circle>
+<circle class="text-primary" cx="40" cy="40" fill="none" r="36" stroke="currentColor" stroke-dasharray="226" stroke-dashoffset="22" stroke-linecap="round" stroke-width="6"></circle>
+</svg>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="text-lg font-bold">99%</span>
+</div>
+</div>
+<span class="text-xs font-semibold text-slate-500 dark:text-gray-400 uppercase tracking-wide">Client Satisfaction</span>
+</div>
+<!-- Metric Card 2: Stat -->
+<div class="bg-slate-900 dark:bg-black p-4 rounded-xl border border-primary/20 flex flex-col items-center justify-center text-center text-white relative overflow-hidden">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary via-transparent to-transparent"></div>
+<h4 class="text-4xl font-light text-primary mb-1">24h</h4>
+<span class="text-xs font-semibold text-gray-400 uppercase tracking-wide">Avg. Response Time</span>
+</div>
+</div>
+<!-- Geometric Growth Graph -->
+<div class="bg-white dark:bg-white/5 rounded-xl border border-primary/10 p-5 shadow-sm">
+<div class="flex justify-between items-center mb-4">
+<h4 class="text-sm font-bold text-slate-dark dark:text-white uppercase tracking-wider">Efficiency Trajectory</h4>
+<span class="px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-bold rounded">+24% YoY</span>
+</div>
+<!-- Abstract Line Chart Visualization -->
+<div class="relative h-32 w-full flex items-end justify-between px-2 gap-2">
+<!-- Background Grid Lines -->
+<div class="absolute inset-0 flex flex-col justify-between pointer-events-none opacity-10">
+<div class="w-full h-px bg-slate-900 dark:bg-white"></div>
+<div class="w-full h-px bg-slate-900 dark:bg-white"></div>
+<div class="w-full h-px bg-slate-900 dark:bg-white"></div>
+<div class="w-full h-px bg-slate-900 dark:bg-white"></div>
+</div>
+<!-- Bars representing growth -->
+<div class="w-1/6 bg-slate-200 dark:bg-slate-700 rounded-t-sm h-[30%] relative group"></div>
+<div class="w-1/6 bg-slate-300 dark:bg-slate-600 rounded-t-sm h-[45%] relative group"></div>
+<div class="w-1/6 bg-slate-400 dark:bg-slate-500 rounded-t-sm h-[40%] relative group"></div>
+<div class="w-1/6 bg-primary/40 rounded-t-sm h-[65%] relative group"></div>
+<div class="w-1/6 bg-primary/70 rounded-t-sm h-[80%] relative group"></div>
+<div class="w-1/6 bg-primary rounded-t-sm h-[95%] relative group shadow-[0_0_15px_rgba(242,185,13,0.4)]"></div>
+</div>
+<div class="flex justify-between mt-2 text-xs text-slate-400 dark:text-gray-500 font-mono">
+<span>Q1</span>
+<span>Q2</span>
+<span>Q3</span>
+<span>Q4</span>
+</div>
+</div>
+</section>
+<!-- Timeline / History -->
+<section class="px-6 py-8">
+<h3 class="text-xl font-bold text-slate-dark dark:text-white mb-6 pl-2">Our Milestones</h3>
+<div class="relative border-l-2 border-slate-200 dark:border-slate-700 ml-3 space-y-8 pb-4">
+<!-- Item 1 -->
+<div class="relative pl-8">
+<span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-background-light dark:border-background-dark bg-slate-300 dark:bg-slate-600"></span>
+<span class="block text-xs font-bold text-slate-400 dark:text-gray-500 mb-1">2018</span>
+<h4 class="text-base font-bold text-slate-800 dark:text-white">Foundation</h4>
+<p class="text-sm text-slate-600 dark:text-gray-400 mt-1">Launched with a focus on luxury residential cleaning.</p>
+</div>
+<!-- Item 2 -->
+<div class="relative pl-8">
+<span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-background-light dark:border-background-dark bg-primary/50"></span>
+<span class="block text-xs font-bold text-slate-400 dark:text-gray-500 mb-1">2020</span>
+<h4 class="text-base font-bold text-slate-800 dark:text-white">Commercial Expansion</h4>
+<p class="text-sm text-slate-600 dark:text-gray-400 mt-1">Expanded operations to boutique hotels and offices.</p>
+</div>
+<!-- Item 3 -->
+<div class="relative pl-8">
+<span class="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full border-4 border-background-light dark:border-background-dark bg-primary shadow-[0_0_10px_rgba(242,185,13,0.5)]"></span>
+<span class="block text-xs font-bold text-primary mb-1">2023</span>
+<h4 class="text-base font-bold text-slate-800 dark:text-white">Top Tier Service Award</h4>
+<p class="text-sm text-slate-600 dark:text-gray-400 mt-1">Recognized as the leading premium service provider in the region.</p>
+</div>
+</div>
+</section>
+<!-- Leadership Spotlight (Carousel Hint) -->
+<section class="pl-6 mb-10 overflow-hidden">
+<h3 class="text-xl font-bold text-slate-dark dark:text-white mb-4">Leadership</h3>
+<div class="flex space-x-4 overflow-x-auto no-scrollbar pr-6 pb-4">
+<!-- Card 1 -->
+<div class="min-w-[140px] bg-white dark:bg-white/5 p-3 rounded-xl border border-primary/10 flex flex-col items-center shadow-sm">
+<div class="w-20 h-20 rounded-full overflow-hidden mb-3 border-2 border-primary/20">
+<img alt="CEO Portrait" class="w-full h-full object-cover" data-alt="Portrait of woman CEO looking confident" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6bFai03PiPHV79xxRwmdmmjy2R7SeItrIzt18ayfftbowuATeiw6zwn1hUE-piVXwNeUfna_fcoysCMFI2QuKwFuN85KO3PS5vFfsgoh_KHeggG2_9m3WQFhKxmqAyETFkpeCZU2ZfX89Fogj12dWLAJqUc-9k_lMDfSUYnRxwOJ-pZEJKOn4jKpLUGZCZFCJbUgiTciSButhk14o6-xEn85R8t7ywiw-IcLS7_Tk_6juxbz0ILmeklASNA3db5I66WoP3KQvaw"/>
+</div>
+<h5 class="text-sm font-bold text-center">Sarah Jenkin</h5>
+<span class="text-xs text-slate-500 text-center">CEO &amp; Founder</span>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[140px] bg-white dark:bg-white/5 p-3 rounded-xl border border-primary/10 flex flex-col items-center shadow-sm">
+<div class="w-20 h-20 rounded-full overflow-hidden mb-3 border-2 border-primary/20">
+<img alt="COO Portrait" class="w-full h-full object-cover" data-alt="Portrait of man COO in suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhiKcyqUDNo-Do8p4SwbMQLwWEnUtVfaaeqNAbeDSKomBcsphH1U3u5KchV56RNDMrOEv9M1eDIuLscckeh19FJQ7jLHFH_yWBbq_Xq84n41JwjPFsvuly6EE3iym_zrefG9uJW5dfBO8xMMniSZ7uPKqSnFqd95Ztm_eLJBEy-ZvAq2y5C3NCZGtmADerV_VTNt8kdK3DuFADLeQE19O_r6BlTCde58UnjAF8HXxp6jAqnfKTvxr3iBuZkZVvNHhaYET7xx906A"/>
+</div>
+<h5 class="text-sm font-bold text-center">Marcus Thorne</h5>
+<span class="text-xs text-slate-500 text-center">COO</span>
+</div>
+<!-- Card 3 -->
+<div class="min-w-[140px] bg-white dark:bg-white/5 p-3 rounded-xl border border-primary/10 flex flex-col items-center shadow-sm opacity-60">
+<div class="w-20 h-20 rounded-full bg-slate-100 dark:bg-white/10 flex items-center justify-center mb-3">
+<span class="material-icons text-3xl text-slate-300">add</span>
+</div>
+<h5 class="text-sm font-bold text-center">Join Us</h5>
+<span class="text-xs text-slate-500 text-center">Careers</span>
+</div>
+</div>
+</section>
+<!-- Bottom CTA Fixed -->
+<div class="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-background-light via-background-light to-transparent dark:from-background-dark dark:via-background-dark pt-12">
+<button class="w-full bg-slate-900 dark:bg-primary text-white dark:text-slate-900 font-bold py-4 rounded-xl shadow-lg hover:shadow-xl active:scale-[0.98] transition-all flex items-center justify-center gap-2">
+<span>Partner With Us</span>
+<span class="material-icons text-sm">arrow_forward</span>
+</button>
+</div>
+</body></html>
