@@ -92,7 +92,7 @@ export default function UploadReport() {
                             type="file"
                             className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                             onChange={handleChange}
-                            accept=".jpg,.jpeg,.png"
+                            accept=".jpg,.jpeg,.png,.pdf"
                         />
 
                         <div className="flex flex-col items-center gap-3">
@@ -106,7 +106,7 @@ export default function UploadReport() {
                                     <>
                                         <p className="text-slate-800 font-bold text-lg">Tap to Upload</p>
                                         <p className="text-slate-500 text-sm mt-1"> Kidney Stone X-Ray, CT Scan, or Sonography</p>
-                                        <p className="text-slate-400 text-xs mt-4">JPG, PNG up to 10MB</p>
+                                        <p className="text-slate-400 text-xs mt-4">JPG, PNG, PDF up to 10MB</p>
                                     </>
                                 )}
                             </div>
