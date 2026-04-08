@@ -60,7 +60,7 @@ async def predict(file: UploadFile = File(...)):
         contents = await file.read()
         
         try:
-            image_tensor, original_image = preprocess_image(contents)
+            image_tensor, original_image = preprocess_image(contents, file.content_type)
         except ValueError as e:
             raise HTTPException(status_code=400, detail=str(e))
             
